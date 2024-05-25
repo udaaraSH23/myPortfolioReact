@@ -1,0 +1,99 @@
+.pr-description {
+  background: rgba(8, 253, 216, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  width: 50%;
+  height: 115%;
+  margin-top: -3%;
+  position: relative;
+}
+
+.projectTiles {
+  padding: 5px;
+  margin: 5px 0;
+
+  h2 {
+    color: #ffd700;
+  }
+}
+
+
+.navigation-buttons {
+  float: right;
+
+  button {
+    padding: 10px;
+    font-size: medium;
+    margin: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    background-color: #ffd700;
+    color: #115173
+  }
+}
+
+.project-bar {
+  background-color: #ffd700;
+}
+
+.desc-wrap {
+  width: 90%;
+  max-height: 90vh;
+  background: #115173;
+  z-index: 999999;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+
+  color: #ffd700;
+  font-family: 'Helvetica';
+  font-size: 17px;
+  font-weight: 300;
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+
+
+  h5 {
+    color: antiquewhite;
+  }
+
+
+}
+
+
+.sklImg {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    width: 50%;
+  }
+
+  img {
+    float: right;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .map-wrap {
+    float: none;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+  }
+
+  .info-map {
+    display: none;
+  }
+}
