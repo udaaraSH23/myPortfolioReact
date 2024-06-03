@@ -47,6 +47,8 @@ const Contact = () => {
           </h1>
 
           <div className="contact-form">
+          <p className='mobile-description'>Whether you have a specific project in mind or just a question, 
+            feel free to reach out using the form below. Let's bring your ideas to life!</p>
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">

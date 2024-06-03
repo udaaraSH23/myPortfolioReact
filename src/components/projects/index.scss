@@ -85,15 +85,24 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .map-wrap {
-    float: none;
-    margin: 0;
+@media screen and (max-width: 720px) {
+  .project-catalog {
+    position: initial;
     width: 100%;
-    height: 400px;
+    overflow: visible;
   }
 
-  .info-map {
-    display: none;
+  .desc-wrap{
+    position:static;
+    width: 100%;
   }
+
+  .pr-description {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    width: 100%;
+  }
+
 }
