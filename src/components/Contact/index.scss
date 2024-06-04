@@ -140,15 +140,24 @@
 
 @media screen and (max-width: 720px) {
   .info-wrap {
+    display: block;
     width: 90%;
     height: 70%;
+    float: none;
+    margin: 0 auto;
+    background-color:#022c43;
   }
 
   .info-map {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    width: 80%;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
     margin-top: 0;
+    padding: 0;
 
   }
 
@@ -157,6 +166,14 @@
   }
   .mobile-description{
     display: block;
+  }
+
+  .contact-detail{
+    padding: 10px;
+    ul {
+      padding: 0;
+      list-style-type: none;
+  }
   }
 
 }

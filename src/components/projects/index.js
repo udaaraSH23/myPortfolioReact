@@ -135,7 +135,7 @@ const About = () => {
                 <p>{project.description}</p>
                 <div className='sklImg'>
                 <div><p>{project.skills}</p></div>
-                <div><img src={project.link} alt='project-movie'/></div>
+                <div><img src={project.link} alt={project.title}/></div>
                 </div>
                 
               </div>
