@@ -2,6 +2,8 @@
   width: 100%;
   margin-top: 20px;
 
+  
+
   ul {
     padding: 0;
     margin: 0;
@@ -79,6 +81,14 @@
   }
 
 
+}
+
+.contact-detail{
+  padding: 10px;
+  ul {
+    padding: 0;
+    list-style-type: none;
+}
 }
 
 .info-wrap {
@@ -168,12 +178,6 @@
     display: block;
   }
 
-  .contact-detail{
-    padding: 10px;
-    ul {
-      padding: 0;
-      list-style-type: none;
-  }
-  }
+  
 
 }

@@ -53,7 +53,10 @@ const About = () => {
             Outside of tech, I am a sports fanatic and photography enthusiast, which keeps me balanced and inspired.
             In one sentence,I am a confident, curious, and evolving tech enthusiast, ready to make a meaningful impact.
           </p>
-          <div className='links'>
+          
+          
+        </div>
+        <div className='links'>
           <ul>
             <li>
               <a
@@ -86,9 +89,6 @@ const About = () => {
 
           </ul>
           </div>
-          
-        </div>
-
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
