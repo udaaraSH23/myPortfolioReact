@@ -104,7 +104,7 @@ const Contact = () => {
                 </li>
                 <li>
                   <FontAwesomeIcon icon={faMailBulk} className="icon" />
-                  <span>udarasenarath85@gmail.com</span>
+                  <span>udarasenarath875@gmail.com</span>
                 </li>
                 <li>
                   <FontAwesomeIcon icon={faLocation} className="icon" />
