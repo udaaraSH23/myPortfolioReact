@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
 import './index.scss'
-import homeRight from '../../assets/images/04.jpg'
+import homeRight from '../../assets/images/04.png'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'

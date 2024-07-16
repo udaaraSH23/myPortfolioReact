@@ -9,6 +9,33 @@
   overflow: hidden;
 }
 
+.links{
+  box-sizing: border-box;
+  margin-top: 10px;
+  display: none;
+  a{
+    text-decoration: none;
+    font-size: 20px;
+  }
+  ul{
+    width: 100%;
+    padding: 0;
+    li{
+      list-style: none;
+    }
+
+    a{
+      text-decoration: none;
+      color: white;
+
+      svg{
+        color: #efd81d;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
 .cubespinner {
   animation-name: spincube;
   animation-timing-function: ease-in-out;
@@ -85,6 +112,16 @@
   
   .stage-cube-cont{
     display: none;
+  }
+  .links{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 30%;
+
+    li{
+      margin: 10px;
+    }
   }
 
 }

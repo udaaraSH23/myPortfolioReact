@@ -7,6 +7,10 @@ import {
   faJsSquare,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
+import {
+  faLinkedin,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -33,7 +37,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a Computer Science and Software Engineering student with a deep passion for technology and electronics.
+            I am a Computer Science and electronics student with a deep passion for technology and electronics.
             Specializing in full-stack and mobile development, I excel in HTML, JavaScript, React.js, React Native, and Express.js.
             My commitment to innovation and continuous learning drives me to push boundaries and improve my skills in this ever-evolving
             field.
@@ -44,11 +48,45 @@ const About = () => {
             I bring confidence and a fresh perspective to every project.
           </p>
           <p>
-          Outside of tech, I am a sports fanatic and photography enthusiast, which keeps me balanced and inspired. 
-          In one sentence,I am a confident, curious, and evolving tech enthusiast, ready to make a meaningful impact.
+            Outside of tech, I am a sports fanatic and photography enthusiast, which keeps me balanced and inspired.
+            In one sentence,I am a confident, curious, and evolving tech enthusiast, ready to make a meaningful impact.
           </p>
+          
+          
         </div>
+        <div className='links'>
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/udara-senarath-8b5a73263/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  color="#4d4d4e"
+                  className="anchor-icon"
+                />
+                linkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/udaaraSH23"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  color="#4d4d4e"
+                  className="anchor-icon"
+                />
+                Github
+              </a>
+            </li>
 
+          </ul>
+          </div>
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">

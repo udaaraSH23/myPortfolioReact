@@ -47,6 +47,8 @@ const Contact = () => {
           </h1>
 
           <div className="contact-form">
+          <p className='mobile-description'>Whether you have a specific project in mind or just a question, 
+            feel free to reach out using the form below. Let's bring your ideas to life!</p>
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
@@ -82,7 +84,6 @@ const Contact = () => {
             </form>
           </div>
         </div>
-
         <div className="info-wrap">
 
           <div className="info-map">
@@ -91,10 +92,6 @@ const Contact = () => {
               I am always eager to take on ambitious freelance projects and collaborate on innovative solutions.
               If you're looking for a dedicated full-stack developer with expertise in JavaScript, React.js,
               MERN Stack and more.you're in the right place.
-            </p>
-            <p>
-              Whether you have a specific project in mind or just a question, feel free to reach out using the form below.
-              Let's bring your ideas to life!
             </p>
             <div className='contact-detail'>
               <ul>

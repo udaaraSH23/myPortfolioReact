@@ -1,15 +1,7 @@
 import { useEffect, useState } from 'react'
-import {
-  faAngular,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
+
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
 import db from '../../firebase'
@@ -135,7 +127,7 @@ const About = () => {
                 <p>{project.description}</p>
                 <div className='sklImg'>
                 <div><p>{project.skills}</p></div>
-                <div><img src={project.link} alt='project-movie'/></div>
+                <div><img src={project.link} alt={project.title}/></div>
                 </div>
                 
               </div>
